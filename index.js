@@ -12,11 +12,11 @@ for (i = 1; i <= currD; i++) {
   }
 }
 
-const names = [ 'Chumlung', 'K.K.C', 'Bimochan','Sachit', 'Holiday'];
+const names = ['Sachit', 'Bimochan', 'Holiday'];
 if (bkoday !== 0 && bkoday !== 6) {
-  var turn = (currD - count) % 4;
+  var turn = (currD - count) % 2;
 } else {
-  var turn = 4;
+  var turn = 2;
 }
 
 var ctx = canvas.getContext('2d');
